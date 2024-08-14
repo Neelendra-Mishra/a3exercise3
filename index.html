@@ -1,0 +1,100 @@
+<!-- A3-->
+<!-- Neelendra Mishra-->
+<!-- Student ID 40224310-->
+<!-- SOEN 287 WEB PROGRAMMING -->
+
+
+                                    <!--START OF THE CODE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <style>
+                                             /* Adding some styling to my page */
+        body {   
+            background-color: #cdb4db;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: black; 
+            margin-top: 20px; 
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            font-style: italic;
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: black;
+           
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        label {
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: block;
+            color: #333;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid ;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #f28482;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff5252;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercise 3</h1>
+    <div class="container">
+        <h2><i>Validate Phone Number</i></h2>
+
+        <!--Creating form for user to check his/her number-->
+        
+        <form action="/validatePhoneNumber" method="post">
+            <label for="phoneNumber">Enter phone number:</label>
+            <input type="text" placeholder="987-654-3210" id="phnonenum" name="phoneNumber">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!--END OF THE CODE-->
